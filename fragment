@@ -1,0 +1,12 @@
+# windows download/upload files
+## install
+yum install lrzsz
+## conf
+SecureCRT
+- Options -> Session Options -> Terminal -> Xmodem/Zmodem ->Directories
+Xshell
+- properties ->default session -> ZMODEM
+## direct 
+sz filename:choose a file send to local machine
+rz: pop up a window to choose  a file to upload to linux server
+
